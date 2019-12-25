@@ -29,8 +29,9 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/sminrana/SwiftUIRemoteImage.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/sminrana'
 
-  s.ios.deployment_target = '13.0'
-
+  s.swift_versions = ['5.0', '5.1']
+  s.ios.deployment_target = '10.0'
+  
   s.source_files = 'Source/*.swift'
   
   # s.resource_bundles = {
