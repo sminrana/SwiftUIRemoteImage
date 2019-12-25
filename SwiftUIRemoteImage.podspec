@@ -25,12 +25,12 @@ TODO: Add long description of the pod here.
   s.screenshots     = 'https://raw.githubusercontent.com/sminrana/swiftui-image-loader-with-list/master/Simulator%20Screen%20Shot%20-%20iPhone%2011%20Pro%20Max%20-%202019-12-25%20at%2013.35.38.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Smin Rana' => 'sminrana@gmail.com' }
-  s.source           = { :git => 'https://github.com/sminrana/SwiftUIRemoteImage.git', :tag => s.version.to_s }
+  #s.source           = { :git => 'https://github.com/sminrana/SwiftUIRemoteImage.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/sminrana'
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'SwiftUIRemoteImage/Source/**/*.swift'
+  s.source_files = 'SwiftUIRemoteImage/Source/*.swift'
   
   # s.resource_bundles = {
   #   'SwiftUIRemoteImage' => ['SwiftUIRemoteImage/Assets/*.png']
