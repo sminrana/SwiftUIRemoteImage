@@ -1,0 +1,22 @@
+{
+  "name": "SwiftUIRemoteImage",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftUIRemoteImage.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Smin Rana/SwiftUIRemoteImage",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Smin Rana": "sminrana@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Smin Rana/SwiftUIRemoteImage.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftUIRemoteImage/Classes/**/*"
+}

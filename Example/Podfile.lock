@@ -1,0 +1,16 @@
+PODS:
+  - SwiftUIRemoteImage (0.1.0)
+
+DEPENDENCIES:
+  - SwiftUIRemoteImage (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftUIRemoteImage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftUIRemoteImage: bae7f29522e98c24d1fd8aa75af6e727cd74b394
+
+PODFILE CHECKSUM: fa264d57c931c29a84889cedf76af6e4b06ac519
+
+COCOAPODS: 1.8.4

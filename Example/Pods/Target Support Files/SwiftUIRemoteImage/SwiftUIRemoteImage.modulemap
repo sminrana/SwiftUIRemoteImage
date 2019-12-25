@@ -1,0 +1,6 @@
+framework module SwiftUIRemoteImage {
+  umbrella header "SwiftUIRemoteImage-umbrella.h"
+
+  export *
+  module * { export * }
+}
