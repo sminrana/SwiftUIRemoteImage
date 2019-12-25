@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SwiftUIRemoteImage'
   s.version          = '0.1.1'
-  s.summary          = 'A short description of SwiftUIRemoteImage.'
+  s.summary          = 'To create Image from HTTP use SwiftUIRemoteImage'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  SwiftUIRemoteImage helps to create Image from HTTP source. In SwiftUI there is no built-in
+  way to create from HTTP url. SwiftUIRemoteImage helps to create Image directly from HTTP url. 
                        DESC
 
   s.homepage         = 'https://github.com/sminrana/SwiftUIRemoteImage'
@@ -30,7 +31,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '13.0'
 
-  #s.source_files = '${POD_NAME}/source/**/*.swift'
+  s.source_files = 'Source/*.swift'
   
   # s.resource_bundles = {
   #   'SwiftUIRemoteImage' => ['SwiftUIRemoteImage/Assets/*.png']
@@ -39,4 +40,9 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+  s.swift_versions = ['5.1']
 end
+
+
+
