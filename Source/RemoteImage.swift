@@ -13,11 +13,11 @@ open class ImageLoader: ObservableObject {
     
     @Published var data:Data?
     
-    init() {
+    public init() {
         
     }
  
-    func loadImage (imageURL: String) {
+    public func loadImage (imageURL: String) {
         print(imageURL)
         if let url = URL(string: imageURL)  {
             let task = URLSession.shared.dataTask(with: url) { data, response, error in
@@ -53,7 +53,7 @@ public struct RemoteImage: View {
     
     @ObservedObject var imageLoader:ImageLoader = ImageLoader()
 
-    init(url: String) {
+    public init(url: String) {
         self.imageLoader.loadImage(imageURL: url)
     }
     
