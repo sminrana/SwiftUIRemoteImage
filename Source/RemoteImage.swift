@@ -9,7 +9,7 @@
 import Foundation
 import SwiftUI
 
-final class ImageLoader: ObservableObject {
+open class ImageLoader: ObservableObject {
     
     @Published var data:Data?
     
@@ -49,7 +49,7 @@ final class ImageLoader: ObservableObject {
     
 }
 
-struct RemoteImage: View {
+public struct RemoteImage: View {
     
     @ObservedObject var imageLoader:ImageLoader = ImageLoader()
 
@@ -57,7 +57,7 @@ struct RemoteImage: View {
         self.imageLoader.loadImage(imageURL: url)
     }
     
-    var body: some View {
+    public var body: some View {
         VStack {
             Image(uiImage: imageLoader.data != nil ? UIImage(data:imageLoader.data!)! : UIImage())
                 .resizable()
@@ -66,10 +66,4 @@ struct RemoteImage: View {
         }
     }
     
-}
-
-struct ImageItem: Identifiable {
-    var id = UUID()
-    var title: String
-    var url: String
 }
