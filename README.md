@@ -1,8 +1,10 @@
 # SwiftUIRemoteImage
 
 [![Version](https://img.shields.io/cocoapods/v/SwiftUIRemoteImage.svg?style=flat)](https://cocoapods.org/pods/SwiftUIRemoteImage)
-[![License](https://img.shields.io/cocoapods/l/SwiftUIRemoteImage.svg?style=flat)](https://cocoapods.org/pods/SwiftUIRemoteImage)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftUIRemoteImage.svg?style=flat)](https://cocoapods.org/pods/SwiftUIRemoteImage)
+[![Swift](https://img.shields.io/badge/Swift-5.1-orange.svg)](https://swift.org)
+[![Xcode](https://img.shields.io/badge/Xcode-11.0-blue.svg)](https://developer.apple.com/xcode)
+[![License](https://img.shields.io/cocoapods/l/SwiftUIRemoteImage.svg?style=flat)](https://cocoapods.org/pods/SwiftUIRemoteImage)
 
 ## Example
 
